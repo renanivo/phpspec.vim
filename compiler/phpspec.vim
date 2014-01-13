@@ -2,6 +2,7 @@
 " Language:                PHPSpec
 " Maintainer:              Renan Ivo <renanivom@gmail.com>
 " URL:                     https://github.com/renanivo/phpspec.vim
+" Inspired by:             RSpec compiler (https://github.com/vim-ruby/vim-ruby/blob/master/compiler/rspec.vim)
 
 if exists("current_compiler")
   finish
