@@ -4,6 +4,6 @@ PHPSpec.vim
 Usage:
 
 ```vim
-:set compiler phpspec
+:compiler phpspec
 :make
 ```
