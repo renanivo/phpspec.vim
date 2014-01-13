@@ -15,7 +15,7 @@ endif
 let s:cpo_save = &cpo
 set cpo-=C
 
-CompilerSet makeprg=/usr/local/bin/php\ ./bin/phpspec\ run\ --verbose\ -f\ dot
+CompilerSet makeprg=./bin/phpspec\ run\ --verbose\ -f\ dot
 CompilerSet errorformat=
     \%Z%.%#1\ %f:%l,
     \%E\ \ %.%#\ \ ✘\ %m,
